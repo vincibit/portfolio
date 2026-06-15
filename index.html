@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Tomasza Stanuli — student informatyki, cyberbezpieczeństwo, aplikacje mobilne i projekty bezpieczeństwa.">
+  <meta name="author" content="Tomasz Stanula">
+  <title>Tomasz Stanula | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Główna nawigacja">
+      <a class="logo" href="#start" aria-label="Strona główna">
+        TS<span>_</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="navigation">
+        <span class="sr-only">Otwórz menu</span>
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navigation">
+        <li><a href="#o-mnie">O mnie</a></li>
+        <li><a href="#umiejetnosci">Umiejętności</a></li>
+        <li><a href="#projekty">Projekty</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">CYBERSECURITY • ANDROID • SOFTWARE DEVELOPMENT</p>
+        <h1>
+          Cześć, jestem <span>Tomasz Stanula</span>.
+        </h1>
+        <p class="hero-description">
+          Studiuję informatykę ze specjalizacją w cyberbezpieczeństwie.
+          Tworzę praktyczne projekty, rozwijam umiejętności defensywne
+          i buduję portfolio przyszłego specjalisty cybersecurity.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projekty">Zobacz projekty</a>
+          <a class="button button-secondary" href="cv.pdf" target="_blank" rel="noopener">
+            Pobierz CV
+          </a>
+        </div>
+
+        <div class="hero-status" aria-label="Status">
+          <span class="status-dot" aria-hidden="true"></span>
+          Otwarty na staż i pierwszą pracę w IT
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="o-mnie">
+      <div class="container">
+        <p class="section-label">01 / O MNIE</p>
+
+        <div class="about-grid">
+          <div>
+            <h2>Łączę naukę z praktycznym budowaniem projektów.</h2>
+          </div>
+
+          <div class="about-copy">
+            <p>
+              Jestem studentem informatyki specjalizującym się w cyberbezpieczeństwie.
+              Interesuję się analizą zagrożeń, bezpieczeństwem aplikacji, sieciami
+              komputerowymi oraz tworzeniem narzędzi wspierających użytkowników.
+            </p>
+            <p>
+              Regularnie rozwijam się poprzez projekty, laboratoria, platformy
+              szkoleniowe i analizę rzeczywistych scenariuszy ataków.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="umiejetnosci">
+      <div class="container">
+        <p class="section-label">02 / UMIEJĘTNOŚCI</p>
+        <h2>Technologie i obszary, które rozwijam</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="card-number">01</span>
+            <h3>Cybersecurity</h3>
+            <p>Phishing, OSINT, analiza logów, podstawy SIEM, IDS/IPS, OWASP i bezpieczeństwo sieci.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">02</span>
+            <h3>Programowanie</h3>
+            <p>Python, Kotlin, Java, podstawy HTML, CSS, JavaScript oraz praca z REST API.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">03</span>
+            <h3>Narzędzia</h3>
+            <p>Git, GitHub, Android Studio, Linux, Windows, Nmap, Wireshark oraz środowiska wirtualne.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">04</span>
+            <h3>Laboratoria</h3>
+            <p>TryHackMe, Hack The Box, zadania CTF, analiza podatności i dokumentowanie wyników.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projekty">
+      <div class="container">
+        <p class="section-label">03 / PROJEKTY</p>
+
+        <div class="section-heading-row">
+          <h2>Wybrane projekty</h2>
+          <p>Każdy projekt zawiera opis problemu, zastosowane technologie i najważniejsze funkcje.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-top">
+              <span class="project-tag">ANDROID / CYBERSECURITY</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3>Phish Hunter</h3>
+            <p>
+              Mobilna aplikacja edukacyjna ucząca rozpoznawania wiadomości phishingowych.
+              Zawiera scenariusze, punktację, statystyki i system powiadomień.
+            </p>
+
+            <ul class="tech-list" aria-label="Technologie">
+              <li>Kotlin</li>
+              <li>Jetpack Compose</li>
+              <li>Room</li>
+              <li>Git</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://github.com/TWOJ-LOGIN/phish-hunter" target="_blank" rel="noopener">
+                Repozytorium ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">NETWORK SECURITY</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3>Analiza sieci z Nmap</h3>
+            <p>
+              Projekt pokazujący wykrywanie hostów, analizę usług, interpretację wyników
+              i przygotowanie raportu bezpieczeństwa.
+            </p>
+
+            <ul class="tech-list" aria-label="Technologie">
+              <li>Nmap</li>
+              <li>Linux</li>
+              <li>Networking</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://github.com/vincibit" target="_blank" rel="noopener">
+                Repozytorium ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">COMING SOON</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3>CyberQuest PL</h3>
+            <p>
+              Planowana aplikacja lub gra edukacyjna rozwijająca praktyczne kompetencje
+              z cyberbezpieczeństwa poprzez zadania i scenariusze.
+            </p>
+
+            <ul class="tech-list" aria-label="Technologie">
+              <li>Kotlin</li>
+              <li>Android</li>
+              <li>Security</li>
+            </ul>
+
+            <div class="project-links">
+              <span>W przygotowaniu</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="kontakt">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">04 / KONTAKT</p>
+          <h2>Porozmawiajmy o współpracy.</h2>
+          <p>
+            Szukam możliwości zdobycia pierwszego doświadczenia zawodowego
+            w cyberbezpieczeństwie, administracji, wsparciu IT lub tworzeniu oprogramowania.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:tomasz.stanula94@gmail.com">
+            Napisz e-mail
+          </a>
+          <a class="text-link" href="https://github.com/vincibit" target="_blank" rel="noopener">
+            GitHub ↗
+          </a>
+          <a class="text-link" href="https://www.linkedin.com/in/tomasz-stanula-939435261/" target="_blank" rel="noopener">
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year"></span> Tomasz Stanula</p>
+      <p>Zaprojektowane i zbudowane od podstaw.</p>
+    </div>
+  </footer>
+</body>
+</html>
